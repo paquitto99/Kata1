@@ -11,7 +11,7 @@ con varias lineas....
 dato = input('Introduce tu edad.:')
 print (dato)
 
-if (dato > 18):
+if (dato > 18):fasdfs
     print ('Eres mayor de edad')
 else:
     print ('Eres menor')
