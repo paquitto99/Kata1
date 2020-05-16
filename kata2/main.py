@@ -7,6 +7,7 @@ por el usuario coincide con la guardada en la variable sin tener en cuenta mayus
 password  = "contraseña" #la constante
 
 password_input = input("Introduzca su password: ")  #se introduce la password
+password_input = password_input.lower()
 
 if password == password_input:
     print ("Su contraseña es correcta")
