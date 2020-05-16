@@ -31,7 +31,7 @@ def Game():
     player = int(input("Elige 1.- PIEDRA, 2.- PAPEL o 3.- TIJERAS.:"))
     print("Has elegido " + str(options[player-1]) + ", ahora veremos si le ganas a nuestra IA...")
     x = input("Pulsa una INTRO para jugartela . . . ")
-    print ("La IA ha elegido " + options[ai] + " así pues... ")
+    print ("La IA ha elegido " + options[ai] + " así pues . . . ")
     winner = quienGana(player-1, ai)
     print(winner)
     return winner
