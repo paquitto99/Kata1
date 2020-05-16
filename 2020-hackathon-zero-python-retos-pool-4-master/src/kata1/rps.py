@@ -27,16 +27,16 @@ def quienGana(player, ai):
 # Entry Point
 def Game():
     ai = randint(0,2)
-    
-        
-    playerName = input("Introduce tu nombre PLAYER ONE.:")
+         
     player = int(input("Elige 1.- PIEDRA, 2.- PAPEL o 3.- TIJERAS.:"))
-    print("Perfecto " + playerName +  " has elegido " + str(options[player-1]) + ", ahora veremos si le ganas a nuestra IA...")
+    print("Has elegido " + str(options[player-1]) + ", ahora veremos si le ganas a nuestra IA...")
     x = input("Pulsa una INTRO para jugartela . . . ")
     print ("La IA ha elegido " + options[ai] + " así pues... ")
     winner = quienGana(player-1, ai)
     print(winner)
+    return winner
+
 
 #  invoco el juego
-a =  Game()
+winner =  Game()
  
